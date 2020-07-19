@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Lucia\Desktop\Boolean\Repository\php-ajax-dischi\src\app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Lucia\Desktop\Boolean\Repository\php-ajax-dischi\src\app.scss */"./src/app.scss");
+__webpack_require__(/*! C:\Users\lucia\Desktop\boolean\repository\php-ajax-dischi\src\app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! C:\Users\lucia\Desktop\boolean\repository\php-ajax-dischi\src\app.scss */"./src/app.scss");
 
 
 /***/ })

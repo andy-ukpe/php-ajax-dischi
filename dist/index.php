@@ -1,7 +1,7 @@
 <?php
 
   include __DIR__ . "/database.php";
-  
+
  ?>
  <!DOCTYPE html>
  <html lang="en" dir="ltr">
@@ -15,7 +15,9 @@
      </head>
      <body>
          <header>
-          <img src="logo.png" alt="logo" />
+           <div class="container">
+             <img src="logo.png" alt="logo" />
+           </div>
          </header>
 
          <div class="cds-container container">
