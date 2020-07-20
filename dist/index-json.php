@@ -1,6 +1,3 @@
-<?php
-include __DIR__ . '/database.php';
-?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -21,7 +18,8 @@ include __DIR__ . '/database.php';
         </div>
 
         <!-- inizio template -->
-        <div id="cd-template" >
+        <script id="entry-template" type="text/x-handlebars-template">
+          <div class="entry">
 
           <div class="cd">
               <img src="{{poster}}" alt="poster-img">
@@ -30,6 +28,7 @@ include __DIR__ . '/database.php';
               <span class="year">{{year}}</span>
           </div>
         </div>
+      </script>
 
       <script type="text/javascript" src="app.js"></script>
     </body>

@@ -18,7 +18,7 @@ $(document).ready(function(){
 });
 
   function printCds(cdDatabase){
-    var source = $("#cd-template").html();
+    var source = $("#entry-template").html();
     var template = Handlebars.compile(source);
     for (var i = 0; i < cdDatabase.length; i++) {
       var cdItem = cdDatabase[i];
