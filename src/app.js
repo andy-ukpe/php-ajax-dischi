@@ -2,6 +2,7 @@ var $ = require("jquery");
 var Handlebars = require("handlebars");
 
 $(document).ready(function(){
+  alert('sei nel documento');
   $.ajax(
     {
       url:'http://localhost:8888/php-ajax-dischi/dist/server.php',
@@ -18,11 +19,12 @@ $(document).ready(function(){
 });
 
   function printCds(cdDatabase){
+    console.log(cdDatabase);
     var source = $("#entry-template").html();
     var template = Handlebars.compile(source);
     for (var i = 0; i < cdDatabase.length; i++) {
       var cdItem = cdDatabase[i];
-      console.log(cdItem);
+
 
 
       var html = template(cdItem);
